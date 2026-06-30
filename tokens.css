@@ -1,0 +1,55 @@
+/* Good Thing Cafe — design tokens. Mid-century, design-forward specialty cafe.
+   Grounded: 43 Ridge St, North Sydney NSW 2060; NO phone listed; 4.4★ / 101 Google reviews.
+   Signature: Mont Blanc cold brew, Raspberry Montblanc, oat flat white, nutty/caramel coffee,
+   baked goods; "a beautiful slice of design"; mid-century cozy/soulful vibe; record player corner.
+   Mon-Fri 6:30-4, Sat-Sun 7:30-1. NO logo (typographic wordmark), NO website.
+   DISTINCT from the other cafes:
+   - Primily = espresso-dark + caramel + sage, Spectral serif, CENTERED hero, restrained footer.
+   - Paradise = bright joyful green/coral/sunshine.
+   Good Thing = MID-CENTURY — warm cream + deep PETROL-GREEN panel + burnt TERRACOTTA + OCHRE,
+   characterful FRAUNCES display + Mulish body, SPLIT hero (colour panel | cinematic video),
+   centred footer. */
+:root{
+  /* palette — mid-century */
+  --ink:      #26211C;   /* warm dark */
+  --petrol:   #1F4E47;   /* deep petrol-green — hero panel / primary */
+  --petrol-deep:#163A35;
+  --cream:    #F3ECDD;   /* warm cream ground */
+  --paper:    #FAF4E8;
+  --oat:      #EAE0CC;   /* pale toasted surface */
+  --terracotta:#C25A33;  /* burnt accent — signature pop */
+  --terracotta-deep:#A2461F;
+  --ochre:    #D49A3C;   /* warm mustard secondary */
+  --text:     #2C2620;   /* warm near-black body */
+  --muted:    #6E6557;
+  --on-dark:  #F3ECDD;
+  --on-dark-soft: rgba(243,236,221,.80);
+  --line:     rgba(38,33,28,.16);
+  --line-soft:rgba(38,33,28,.09);
+  --line-dark:rgba(243,236,221,.20);
+
+  /* type */
+  --f-display:"Fraunces","Georgia",serif;                 /* characterful, mid-century soft serif */
+  --f-body:   "Mulish","Helvetica Neue",Arial,sans-serif; /* clean, friendly grotesk */
+  --t-hero: clamp(2.5rem, 4.6vw, 4.3rem);
+  --t-h2:   clamp(1.85rem, 3.8vw, 3rem);
+  --t-h3:   clamp(1.15rem, 1.7vw, 1.45rem);
+  --t-body: 1.06rem;
+  --t-kicker:.74rem;
+
+  /* spacing */
+  --s-2:.5rem; --s-3:.85rem; --s-4:1.4rem; --s-5:2.2rem; --s-6:3.4rem; --s-7:clamp(4rem,9vw,7rem);
+  --maxw:1160px;
+
+  /* radii — soft mid-century */
+  --r-sm:8px; --r-md:14px; --r-lg:22px; --r-pill:999px;
+
+  /* shadows */
+  --shadow-soft: 0 26px 60px -32px rgba(22,20,16,.5);
+  --shadow-card: 0 16px 36px -22px rgba(22,20,16,.34);
+
+  /* motion */
+  --dur:.55s;
+  --ease: cubic-bezier(.22,1,.36,1);
+  --ease-out: cubic-bezier(.16,1,.3,1);
+}
